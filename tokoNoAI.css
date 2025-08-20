@@ -1,0 +1,74 @@
+body {
+    background-color: #111827;
+
+}
+.glow-text {
+  color: #0ea5e9; 
+  font-size: 20px;
+  text-shadow:
+    0 0 5px #0ea5e9,
+    0 0 10px #0ea5e9,
+    0 0 20px #0ea5e9,
+    0 0 40px #06b6d4;
+    text-align: center;
+}
+#container {
+    margin: 0px auto;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center; 
+    gap: 20px;
+    
+}
+.card {
+    background-color:#152241;
+    padding: 10px;
+    text-align: center;
+    color: #06b6d4;
+    font-family: 'Orbitron';
+    width: 25%;
+    height: 300px auto;
+    margin: 2%;
+    border-radius: 20px;
+}
+.productpic {
+    width: 100%;
+    justify-content: center;
+}
+.productpic img {
+    border-radius: 15px;
+    height:300px auto;
+}
+.description {
+    width: 100%;
+    font-family: 'Orbitron';
+    color: #ffff;
+    justify-content: center;
+
+}
+.buybutton {
+    background-color: #06b6d4;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.7);
+}
+.buybutton:hover {
+    background-color: #048399;
+}
+.buybutton:active {
+    background-color:#01424e ;
+}
+.harga {
+    font-size: 20px;
+    width: 100%;
+    color: #06b6d4;
+    font-family: 'Roboto Mono';
+}
